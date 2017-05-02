@@ -1,0 +1,8 @@
+settings set prompt "(thou) "
+settings set target.x86-disassembly-flavor intel
+script print "\033[36m████████╗██╗  ██╗ ██████╗ ██╗   ██╗"
+script print "╚══██╔══╝██║  ██║██╔═══██╗██║   ██║"
+script print "   ██║   ███████║██║   ██║██║   ██║"
+script print "   ██║   ██╔══██║██║   ██║██║   ██║"
+script print "   ██║   ██║  ██║╚██████╔╝╚██████╔╝"
+script print "   ╚═╝   ╚═╝  ╚═╝ ╚═════╝  ╚═════╝ \033[0m"

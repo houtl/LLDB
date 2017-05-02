@@ -1,0 +1,12 @@
+breakpoint set --line 16
+breakpoint set --line 19 -o
+breakpoint set --line 32 -c 'tmp=min[0]+min[1]+min[2]'
+breakpoint set --line 44 -c 'biggest=(min[0]>min[1]?min[0]:min[1])>min[2]?(min[0]>min[1]?min[0]:min[1]):min[2]'
+process launch
+expression $rsi -= 4
+process continue
+process continue
+expression $rsi += 4
+process continue
+expression count=0
+process continue
